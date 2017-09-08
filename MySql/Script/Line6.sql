@@ -1,0 +1,30 @@
+use db_coursework;
+create table e(S_No char(3) not null,S_name nvarchar(50) not null,transfer int not null,
+                   attraction nvarchar(50) default null,PRIMARY KEY(S_name));
+
+insert E values('E01','海淀五路居',0,null);
+insert E values('E02','慈寿寺',1,null);
+insert E values('E03','花园桥',0,null);
+insert E values('E04','白石桥南',1,null);
+insert E values('E05','车公庄西',0,null);
+insert E values('E06','车公庄',1,null);
+insert E values('E07','平安里',1,null);
+insert E values('E08','北海北',0,null);
+insert E values('E09','南锣鼓巷',1,'南锣鼓巷');
+insert E values('E10','东四',1,NULL);
+insert E values('E11','朝阳门',1,NULL);
+insert E values('E12','东大桥',0,null);
+insert E values('E13','呼家楼',1,null);
+insert E values('E14','金台路',1,null);
+insert E values('E15','十里堡',0,null);
+insert E values('E16','青年路',0,null);
+insert E values('E17','褡裢坡',0,null);
+insert E values('E18','黄渠',0,null);
+insert E values('E19','常营',0,null);
+insert E values('E20','草房',0,'天坛');
+insert E values('E21','物资学院路',0,null);
+insert E values('E22','通州北关',0,null);
+insert E values('E23','北运河西',0,null);
+insert E values('E24','郝家府',0,null);
+insert E values('E25','东夏园',0,null);
+insert E values('E26','潞城',0,null);
